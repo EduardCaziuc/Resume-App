@@ -20,7 +20,7 @@ class AboutViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         resumePhotoImageView.layer.cornerRadius = resumePhotoImageView.frame.size.height/2
         resumePhotoImageView.layer.borderWidth = 3
-       resumePhotoImageView.layer.borderColor = #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1)
+       resumePhotoImageView.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
        resumePhotoImageView.clipsToBounds = true
     }
 

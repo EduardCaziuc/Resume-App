@@ -83,12 +83,12 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55P-D8-i7T">
-                                                <rect key="frame" x="8" y="166" width="304" height="604"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55P-D8-i7T">
+                                                <rect key="frame" x="8" y="170" width="304" height="600"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Eager to learn, self-driven and passionate about Apple related stuff I discovered the Swift Language about a year ago and loved it. I started learning it online with different teachers, and I've been coding ever since, focusing manly on Object-oriented programming (OOP) paradigm. I have completed many courses some of which were from "Treehouse.com", "Udemy.com" and "Lynda.com" and "Udacity.com", and I have created some interesting apps of my own. I’m always eager to learn and improve.
-My professional objective is to become a iOS Developer. I am searching for a full time position in an environment that offers a greater challenge, to work in team and the opportunity to help the company advance efficiently and productively. I'm looking forward, with a positive attitude, to accumulate new knowledge and to improve my skills in the app development field.
-</string>
+                                                <mutableString key="text">Eager to learn, self-driven and passionate about computers and technology I discovered the Swift Language about a year ago and loved it. I started learning it online with different teachers, and I have been coding ever since, focusing manly on Object-oriented programming (OOP) paradigm. I have completed many courses some of which were from "Treehouse.com", "Udemy.com", "Lynda.com" and "Udacity.com", and I have created some interesting apps of my own. I am always determined to learn and improve.
+
+My professional objective is to become an iOS Developer. I am searching for a full time position in an environment that offers a greater challenge, to work in team and the opportunity to help the company advance efficiently and productively. I am looking forward, with a positive attitude, to accumulate new knowledge and to improve my skills in the app development field.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -141,86 +141,6 @@ My professional objective is to become a iOS Developer. I am searching for a ful
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320.07042253521126"/>
-        </scene>
-        <!--Education-->
-        <scene sceneID="ZBW-bK-45P">
-            <objects>
-                <viewController id="pIq-Y2-kCq" customClass="EducationViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4uW-LK-M8p">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="NAV-Cd-TAa">
-                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvd-Lw-OG3">
-                                <rect key="frame" x="14" y="187" width="294" height="310"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-github-480" translatesAutoresizingMaskIntoConstraints="NO" id="CZs-uS-cjH">
-                                <rect key="frame" x="89" y="20" width="142" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbI-QX-tn8">
-                                <rect key="frame" x="98" y="146" width="124" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="E4q-nW-VbU"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Education" image="Education tab icon" selectedImage="Education tab icon" id="OxR-Te-MeO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="I7Z-8S-Tfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-695" y="371"/>
-        </scene>
-        <!--Skills-->
-        <scene sceneID="5xW-A8-Q9Q">
-            <objects>
-                <viewController id="mmq-bT-abC" customClass="SkillsViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vzq-GW-6h7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="5NC-ZX-CqM">
-                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVp-JU-eZi">
-                                <rect key="frame" x="10" y="195" width="294" height="310"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-github-480" translatesAutoresizingMaskIntoConstraints="NO" id="cg8-T9-LUm">
-                                <rect key="frame" x="89" y="20" width="142" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Technical Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPa-9L-Svb">
-                                <rect key="frame" x="64" y="154" width="187" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Yan-hT-TCT"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Skills" image="Skills tab icon" selectedImage="Skills tab icon" id="ZMQ-cG-8hh"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r8Z-qP-GIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="0.0" y="788.02816901408448"/>
         </scene>
         <!--Projects-->
         <scene sceneID="wg7-f3-ORb">
@@ -341,10 +261,6 @@ My professional objective is to become a iOS Developer. I am searching for a ful
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-github-480" translatesAutoresizingMaskIntoConstraints="NO" id="Uns-jo-HtJ">
-                                                <rect key="frame" x="91" y="0.0" width="142" height="142"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB7-Oq-dnN">
                                                 <rect key="frame" x="17" y="193" width="290" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -426,13 +342,22 @@ My professional objective is to become a iOS Developer. I am searching for a ful
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Link"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GitHub Projects" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKl-BQ-oBP">
-                                                <rect key="frame" x="65" y="135" width="194" height="33"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="peP-Ak-AII">
+                                                <rect key="frame" x="-8" y="176" width="320" height="9"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projects" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRe-fJ-vwl">
+                                                <rect key="frame" x="112" y="135" width="101" height="33"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-github-480" translatesAutoresizingMaskIntoConstraints="NO" id="Uns-jo-HtJ">
+                                                <rect key="frame" x="88" y="0.0" width="148" height="147"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -470,39 +395,6 @@ My professional objective is to become a iOS Developer. I am searching for a ful
             </objects>
             <point key="canvasLocation" x="750" y="917.95774647887322"/>
         </scene>
-        <!--Experience-->
-        <scene sceneID="IgL-o3-pLh">
-            <objects>
-                <viewController id="9QN-eE-auQ" customClass="ExperienceViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4me-e5-wyO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Jwx-4S-Q05">
-                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-github-480" translatesAutoresizingMaskIntoConstraints="NO" id="fGA-Zd-ncM">
-                                <rect key="frame" x="87" y="20" width="142" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Experience" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJO-uq-rhr">
-                                <rect key="frame" x="90" y="149" width="137" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="NjL-sV-HwH"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Experience" image="Work tab icon" id="psa-qW-bW1"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fIc-ZG-bVc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-697.5" y="-335.91549295774649"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -517,28 +409,363 @@ My professional objective is to become a iOS Developer. I am searching for a ful
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="mmq-bT-abC" kind="relationship" relationship="viewControllers" id="h3y-mb-atu"/>
-                        <segue destination="pIq-Y2-kCq" kind="relationship" relationship="viewControllers" id="VJq-oT-6zw"/>
-                        <segue destination="9QN-eE-auQ" kind="relationship" relationship="viewControllers" id="Npg-QG-LF7"/>
+                        <segue destination="q4Y-Db-3M5" kind="relationship" relationship="viewControllers" id="HLY-br-uXZ"/>
+                        <segue destination="Nzf-79-lVM" kind="relationship" relationship="viewControllers" id="NH0-q3-MdL"/>
+                        <segue destination="SGW-mt-AdK" kind="relationship" relationship="viewControllers" id="Mkv-Sy-MHi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--Experience-->
+        <scene sceneID="jlC-kC-TsO">
+            <objects>
+                <viewController id="SGW-mt-AdK" customClass="ExperienceViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e5V-oh-9cL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qcf-dA-gAH">
+                                <rect key="frame" x="0.0" y="20" width="320" height="881"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYr-Ie-fra">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="801"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="y5I-S7-4Dw">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="851"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STw-j6-1QY">
+                                                <rect key="frame" x="8" y="193" width="304" height="371"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Professional experience
+
+Jan 2017 - Feb 2018
+1 year and 2 months
+QA Tester - Gameloft
+Cluj-Napoca | IT Software | IT / Telecom
+
+The platform we are working in is mainly iOS.
+My responsibilities include:
+- Performing detailed testing on different projects, both creation and updates;
+- Identifying what is required by checklists and game design documentation and coming up with test cases; - Working with different online tools that include Gameloft Ad Agency, CROM Campaign Manger, Hive Push Notification, Rate Limit Test, Automation, Gifting, Fed Debug, Banning tools;
+- Providing reports and statuses to superiors;
+- Helping other team members with their assignments;
+- Giving feedback to superiors regarding new team members and their performance;
+- Assigning tasks for the rest of the team;</mutableString>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Experience Image" translatesAutoresizingMaskIntoConstraints="NO" id="Ura-nA-56e">
+                                                <rect key="frame" x="89" y="0.0" width="142" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pne-DJ-yXO">
+                                                <rect key="frame" x="0.0" y="184" width="320" height="9"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Experience" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6l-bb-0w4">
+                                                <rect key="frame" x="92" y="143" width="137" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmZ-s9-LyK">
+                                                <rect key="frame" x="8" y="565" width="304" height="177"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Other info
+Certifications
+Technician in Economical Activities
+period Sep 2009 - Jun 2013
+Certificate Of Linguistic Competence In English
+period Sep 2009 - Jun 2013
+Experienced user
+Certificate of Digital Competence
+period Sep 2009 - Jun 2013
+Experienced user
+Driving license
+Category B
+acquired on 21 Oct 2014</string>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                                <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is an actual application, it can be found here: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywi-6m-ZKe">
+                                                <rect key="frame" x="8" y="750" width="304" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="y5I-S7-4Dw" firstAttribute="top" secondItem="MYr-Ie-fra" secondAttribute="top" id="4A2-DB-Fr8"/>
+                                            <constraint firstAttribute="bottom" secondItem="y5I-S7-4Dw" secondAttribute="bottom" constant="-50" id="HBd-F6-64W"/>
+                                            <constraint firstItem="y5I-S7-4Dw" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" id="YTv-T0-m4Z"/>
+                                            <constraint firstAttribute="trailing" secondItem="y5I-S7-4Dw" secondAttribute="trailing" id="foG-lw-bwq"/>
+                                            <constraint firstAttribute="height" constant="801" id="xWe-Kk-NRd"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiA-Bu-f18">
+                                        <rect key="frame" x="8" y="786" width="304" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                        <state key="normal" title="https://github.com/EduardCaziuc/Resume-App"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="MYr-Ie-fra" firstAttribute="leading" secondItem="Qcf-dA-gAH" secondAttribute="leading" id="5TU-XT-BCs"/>
+                                    <constraint firstItem="MYr-Ie-fra" firstAttribute="top" secondItem="Qcf-dA-gAH" secondAttribute="top" id="eFt-mf-Rdu"/>
+                                    <constraint firstAttribute="bottom" secondItem="MYr-Ie-fra" secondAttribute="bottom" constant="50" id="efD-Qa-0n1"/>
+                                    <constraint firstAttribute="trailing" secondItem="MYr-Ie-fra" secondAttribute="trailing" id="wh5-vh-Wwl"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dFk-HV-046" firstAttribute="trailing" secondItem="Qcf-dA-gAH" secondAttribute="trailing" id="09j-e7-fll"/>
+                            <constraint firstItem="Qcf-dA-gAH" firstAttribute="top" secondItem="dFk-HV-046" secondAttribute="top" id="2yl-QK-hdY"/>
+                            <constraint firstItem="MYr-Ie-fra" firstAttribute="width" secondItem="e5V-oh-9cL" secondAttribute="width" id="CTj-tm-eVO"/>
+                            <constraint firstItem="Qcf-dA-gAH" firstAttribute="leading" secondItem="dFk-HV-046" secondAttribute="leading" id="OIC-Fd-YZO"/>
+                            <constraint firstItem="dFk-HV-046" firstAttribute="bottom" secondItem="Qcf-dA-gAH" secondAttribute="bottom" constant="-50" id="tLf-jf-Iuf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dFk-HV-046"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Experience" image="Work tab icon" selectedImage="Work tab icon" id="BVR-PY-67z"/>
+                    <size key="freeformSize" width="320" height="900"/>
+                    <connections>
+                        <outlet property="experienceImageView" destination="Ura-nA-56e" id="YWa-wp-peh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i2O-lQ-SdI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-802.5" y="-320.07042253521126"/>
+        </scene>
+        <!--Education-->
+        <scene sceneID="QeA-z4-Tna">
+            <objects>
+                <viewController id="Nzf-79-lVM" customClass="EducationViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0wa-co-LKs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DsC-lh-rts">
+                                <rect key="frame" x="0.0" y="20" width="320" height="881"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJb-Ea-h3K">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="801"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Y7w-1Y-Feg">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="851"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="academic_record_icon.png;wa50ddfacdc6da6e24" translatesAutoresizingMaskIntoConstraints="NO" id="MXE-SL-Aax">
+                                                <rect key="frame" x="89" y="0.0" width="142" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8Z-eg-uE5">
+                                                <rect key="frame" x="99" y="143" width="124" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMI-Yr-fNP">
+                                                <rect key="frame" x="0.0" y="184" width="320" height="9"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhz-hL-urp">
+                                                <rect key="frame" x="8" y="201" width="304" height="628"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Online Courses:
+Treehouse.com Bootcamp:
+
+- Treehouse Track Beginning iOS:
+
+Courses: Swift Basics, Swift Collections and Control Flow, Functions in Swift, Object-Oriented Swift, Build a Simple iPhone App with Swift, Enumerations and Optionals in Swift, Protocols in Swift, Error Handling in Swift, Build a Vending Machine App, Auto-Layout Basics, Programatic Auto Layout
+
+- Treehouse Track Intermediate iOS:
+
+Courses: Intermediate Swift, API Design Guidelines in Swift, Delegation in iOS, Build an Interactive Story App with Swift, Generics in Swift, Closures in Swift, Build a Weather App, Introduction to Table Views (in progress), Build an iTunes Search App (in progress), Build a Restaurant Reviews App (in progress) 
+
+Stanford University Course: Developing iOS 11 Apps with Swift with (17 Lectures)
+
+Udemy.com Courses: 
+iOS 11 &amp; Swift 4 - The Complete iOS App Development Bootcamp 227 Lectures (50 % Complete)
+iOS 11 &amp; Swift 4: From Beginner to Paid Professional™ 188 Lecutres (39% Complete)
+
+Lynda.com and Udacity.com Courses
+
+
+2013 - 2016
+Bachelor's degree - Babes Bolyai University
+Psychology | Cluj-Napoca</mutableString>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Y7w-1Y-Feg" secondAttribute="bottom" constant="-50" id="kdD-zd-iVk"/>
+                                            <constraint firstItem="Y7w-1Y-Feg" firstAttribute="leading" secondItem="yJb-Ea-h3K" secondAttribute="leading" id="mWX-MY-v8V"/>
+                                            <constraint firstItem="Y7w-1Y-Feg" firstAttribute="top" secondItem="yJb-Ea-h3K" secondAttribute="top" id="p4j-RN-KFN"/>
+                                            <constraint firstAttribute="height" constant="801" id="pcx-9p-5cM"/>
+                                            <constraint firstAttribute="trailing" secondItem="Y7w-1Y-Feg" secondAttribute="trailing" id="zcI-Ji-BaK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="yJb-Ea-h3K" secondAttribute="bottom" constant="50" id="NL3-wL-K3l"/>
+                                    <constraint firstItem="yJb-Ea-h3K" firstAttribute="leading" secondItem="DsC-lh-rts" secondAttribute="leading" id="OUQ-Wu-of2"/>
+                                    <constraint firstAttribute="trailing" secondItem="yJb-Ea-h3K" secondAttribute="trailing" id="jLx-Xe-je7"/>
+                                    <constraint firstItem="yJb-Ea-h3K" firstAttribute="top" secondItem="DsC-lh-rts" secondAttribute="top" id="udh-l6-DuX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jce-i4-dCU" firstAttribute="trailing" secondItem="DsC-lh-rts" secondAttribute="trailing" id="GBG-8R-Z9T"/>
+                            <constraint firstItem="DsC-lh-rts" firstAttribute="top" secondItem="jce-i4-dCU" secondAttribute="top" id="KYT-7l-Lyf"/>
+                            <constraint firstItem="DsC-lh-rts" firstAttribute="leading" secondItem="jce-i4-dCU" secondAttribute="leading" id="ZJC-mm-SmR"/>
+                            <constraint firstItem="jce-i4-dCU" firstAttribute="bottom" secondItem="DsC-lh-rts" secondAttribute="bottom" constant="-50" id="f7l-fh-R8r"/>
+                            <constraint firstItem="yJb-Ea-h3K" firstAttribute="width" secondItem="0wa-co-LKs" secondAttribute="width" id="kv6-al-a9x"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jce-i4-dCU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Education" image="Education tab icon" selectedImage="Education tab icon" id="bui-38-D5e"/>
+                    <size key="freeformSize" width="320" height="900"/>
+                    <connections>
+                        <outlet property="EducationImageView" destination="MXE-SL-Aax" id="K8D-Qv-J3U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCe-cs-gsg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-804.375" y="706.69014084507046"/>
+        </scene>
+        <!--Skills-->
+        <scene sceneID="KHc-Ar-Hdp">
+            <objects>
+                <viewController id="q4Y-Db-3M5" customClass="SkillsViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LhH-Qh-Y9t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smc-kd-Zas">
+                                <rect key="frame" x="0.0" y="20" width="320" height="881"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbi-Ui-7tx">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="801"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="geU-74-K45">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="851"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Skills Image" translatesAutoresizingMaskIntoConstraints="NO" id="z0x-ps-jsu">
+                                                <rect key="frame" x="91" y="0.0" width="142" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yv4-IN-j7S">
+                                                <rect key="frame" x="128" y="143" width="65" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mxF-iB-PHf">
+                                                <rect key="frame" x="0.0" y="184" width="320" height="9"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19j-oa-XrB">
+                                                <rect key="frame" x="0.0" y="201" width="312" height="624"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Technical Skills: 
+
+- iOS Development
+
+- Object-Oriented Programming (OOP)
+
+- Xcode IDE 
+
+Programming Languages: Swift, some knowledge of Objective-C and Python.
+
+Operating Systems:
+
+-macOS and Windows
+
+Other Skills:
+
+- Strategic Planning
+
+- Persistence in my work
+
+-Good written and verbal English communication skills
+
+- Working under stress
+
+ Spoken Languages: 
+
+-English - Advanced, Romanian - Advanced, German - Beginner, Spanish - Beginner
+
+As a starting iOS Developer I am very interested in learning all the necessary skills and accumulate as much information as possible to create professional, reliable, fast and bug-free mobile applications.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="geU-74-K45" firstAttribute="leading" secondItem="hbi-Ui-7tx" secondAttribute="leading" id="HGj-wN-dFG"/>
+                                            <constraint firstAttribute="bottom" secondItem="geU-74-K45" secondAttribute="bottom" constant="-50" id="lxx-fD-DAF"/>
+                                            <constraint firstItem="geU-74-K45" firstAttribute="top" secondItem="hbi-Ui-7tx" secondAttribute="top" id="n7A-CM-SQA"/>
+                                            <constraint firstAttribute="height" constant="801" id="rUt-Nb-iS2"/>
+                                            <constraint firstAttribute="trailing" secondItem="geU-74-K45" secondAttribute="trailing" id="vk3-fI-bYP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hbi-Ui-7tx" firstAttribute="leading" secondItem="smc-kd-Zas" secondAttribute="leading" id="1lS-0f-eEc"/>
+                                    <constraint firstAttribute="bottom" secondItem="hbi-Ui-7tx" secondAttribute="bottom" constant="50" id="I1O-Jz-i2z"/>
+                                    <constraint firstAttribute="trailing" secondItem="hbi-Ui-7tx" secondAttribute="trailing" id="ZSW-SG-RdQ"/>
+                                    <constraint firstItem="hbi-Ui-7tx" firstAttribute="top" secondItem="smc-kd-Zas" secondAttribute="top" id="yCk-ag-h1O"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="smc-kd-Zas" firstAttribute="top" secondItem="JEH-QY-KQD" secondAttribute="top" id="0ss-Uq-Liv"/>
+                            <constraint firstItem="hbi-Ui-7tx" firstAttribute="width" secondItem="LhH-Qh-Y9t" secondAttribute="width" id="DFG-yd-kKa"/>
+                            <constraint firstItem="smc-kd-Zas" firstAttribute="leading" secondItem="JEH-QY-KQD" secondAttribute="leading" id="YcL-Id-gQT"/>
+                            <constraint firstItem="JEH-QY-KQD" firstAttribute="trailing" secondItem="smc-kd-Zas" secondAttribute="trailing" id="mYh-re-bVy"/>
+                            <constraint firstItem="JEH-QY-KQD" firstAttribute="bottom" secondItem="smc-kd-Zas" secondAttribute="bottom" constant="-50" id="q8B-Dr-PEf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JEH-QY-KQD"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Skills" image="Skills tab icon" selectedImage="Skills tab icon" id="DD8-wh-ZsN"/>
+                    <size key="freeformSize" width="320" height="900"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CMK-v6-JNY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="877.81690140845069"/>
+        </scene>
     </scenes>
     <resources>
         <image name="About tab icon" width="36" height="36"/>
         <image name="Background" width="640" height="480"/>
         <image name="Education tab icon" width="40" height="40"/>
+        <image name="Experience Image" width="320" height="320"/>
         <image name="Location Image" width="96" height="96"/>
         <image name="Mail Image" width="39" height="30"/>
         <image name="Phone Image" width="76" height="76"/>
         <image name="Projects tab icon" width="40" height="40"/>
         <image name="Resume Photo" width="420" height="420"/>
+        <image name="Skills Image" width="1024" height="1024"/>
         <image name="Skills tab icon" width="36" height="36"/>
         <image name="Swift" width="564" height="376"/>
         <image name="Work tab icon" width="36" height="36"/>
+        <image name="academic_record_icon.png;wa50ddfacdc6da6e24" width="360" height="360"/>
         <image name="icons8-github-480" width="480" height="480"/>
     </resources>
 </document>

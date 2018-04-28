@@ -10,6 +10,10 @@ import UIKit
 
 class ProjectsViewController: UIViewController {
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +23,12 @@ class ProjectsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func HandleSelection(_ sender: UIButton) {
+    }
+    
+    @IBAction func myGitHubProfileLinkPressed() {
 
-
+        UIApplication.shared.open(URL(string: "https://github.com/EduardCaziuc")! as URL, options: [ : ], completionHandler: nil)
+    }
 }
 

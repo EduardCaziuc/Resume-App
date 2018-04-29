@@ -83,16 +83,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55P-D8-i7T">
-                                                <rect key="frame" x="8" y="170" width="304" height="600"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Eager to learn, self-driven and passionate about computers and technology I discovered the Swift Language about a year ago and loved it. I started learning it online with different teachers, and I have been coding ever since, focusing manly on Object-oriented programming (OOP) paradigm. I have completed many courses some of which were from "Treehouse.com", "Udemy.com", "Lynda.com" and "Udacity.com", and I have created some interesting apps of my own. I am always determined to learn and improve.
-
-My professional objective is to become an iOS Developer. I am searching for a full time position in an environment that offers a greater challenge, to work in team and the opportunity to help the company advance efficiently and productively. I am looking forward, with a positive attitude, to accumulate new knowledge and to improve my skills in the app development field.</mutableString>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift" translatesAutoresizingMaskIntoConstraints="NO" id="ftg-TF-Y68">
                                                 <rect key="frame" x="119" y="778" width="82" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -102,6 +92,16 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <color key="textColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55P-D8-i7T">
+                                                <rect key="frame" x="8" y="162" width="304" height="608"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Eager to learn, self-driven and passionate about computers and technology I discovered the Swift Language about a year ago and loved it. I started learning it online with different teachers, and I have been coding ever since, focusing manly on Object-oriented programming (OOP) paradigm. I have completed many courses some of which were from "Treehouse.com", "Udemy.com", "Lynda.com" and "Udacity.com", and I have created some interesting apps of my own. I am always determined to learn and improve.
+
+My professional objective is to become an iOS Developer. I am searching for a full time position in an environment that offers a greater challenge, to work in team and the opportunity to help the company advance efficiently and productively. I am looking forward, with a positive attitude, to accumulate new knowledge and to improve my skills in the app development field.</string>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -140,7 +140,7 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320.07042253521126"/>
+            <point key="canvasLocation" x="819" y="-373"/>
         </scene>
         <!--Projects-->
         <scene sceneID="wg7-f3-ORb">
@@ -189,146 +189,6 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Link"/>
                                             </button>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lAo-9y-s59">
-                                                <rect key="frame" x="9" y="822" width="137.5" height="51.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08W-Y7-Nhy">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Project Title"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description:......." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxc-ac-Im7">
-                                                        <rect key="frame" x="0.0" y="30" width="137.5" height="21.5"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="12f-oT-bGi">
-                                                <rect key="frame" x="11" y="557" width="137.5" height="51.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IS-hu-du9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Project Title"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description:......." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxE-TJ-aVF">
-                                                        <rect key="frame" x="0.0" y="30" width="137.5" height="21.5"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="78T-1u-Kbw">
-                                                <rect key="frame" x="10" y="457" width="137.5" height="51.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9c-tM-iPI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Project Title"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description:......." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugg-Dq-G4E">
-                                                        <rect key="frame" x="0.0" y="30" width="137.5" height="21.5"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pr5-v5-FCu">
-                                                <rect key="frame" x="10" y="344" width="137.5" height="51.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5e-YZ-JzI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Project Title"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description:......." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c96-h2-tc0">
-                                                        <rect key="frame" x="0.0" y="30" width="137.5" height="21.5"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB7-Oq-dnN">
-                                                <rect key="frame" x="17" y="193" width="290" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <state key="normal" title="https://github.com/EduardCaziuc">
-                                                    <color key="titleColor" red="0.078431372550000003" green="0.68627450980000004" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="myGitHubProfileLinkPressed" destination="8rJ-Kc-sve" eventType="touchUpInside" id="HnD-xS-1JR"/>
-                                                </connections>
-                                            </button>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Aa5-Mg-pdP">
-                                                <rect key="frame" x="11" y="230" width="137.5" height="51.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUP-93-dnN">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Project Title"/>
-                                                        <connections>
-                                                            <action selector="HandleSelection:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="HXj-RJ-1J4"/>
-                                                        </connections>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description:......." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tft-4e-rCz">
-                                                        <rect key="frame" x="0.0" y="30" width="137.5" height="21.5"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bJL-xc-n80">
-                                                <rect key="frame" x="8" y="948" width="137.5" height="51.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDg-ln-6hM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Project Title"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description:......." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgY-x9-RJW">
-                                                        <rect key="frame" x="0.0" y="30" width="137.5" height="21.5"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3Ql-9x-bC6">
-                                                <rect key="frame" x="11" y="687" width="137.5" height="51.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqO-Y1-Gw8">
-                                                        <rect key="frame" x="0.0" y="0.0" width="137.5" height="30"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <state key="normal" title="Project Title"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description:......." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KjO-oc-9wt">
-                                                        <rect key="frame" x="0.0" y="30" width="137.5" height="21.5"/>
-                                                        <color key="backgroundColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHF-nU-4sJ">
                                                 <rect key="frame" x="22" y="1119" width="278" height="104"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -348,9 +208,9 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projects" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRe-fJ-vwl">
-                                                <rect key="frame" x="112" y="135" width="101" height="33"/>
+                                                <rect key="frame" x="105" y="135" width="116" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -358,6 +218,17 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                                 <rect key="frame" x="88" y="0.0" width="148" height="147"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB7-Oq-dnN">
+                                                <rect key="frame" x="15" y="186" width="290" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="https://github.com/EduardCaziuc">
+                                                    <color key="titleColor" red="0.078431372550000003" green="0.68627450980000004" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="myGitHubProfileLinkPressed" destination="8rJ-Kc-sve" eventType="touchUpInside" id="HnD-xS-1JR"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -393,7 +264,7 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="917.95774647887322"/>
+            <point key="canvasLocation" x="821" y="1135"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -423,24 +294,22 @@ My professional objective is to become an iOS Developer. I am searching for a fu
             <objects>
                 <viewController id="SGW-mt-AdK" customClass="ExperienceViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e5V-oh-9cL">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qcf-dA-gAH">
-                                <rect key="frame" x="0.0" y="20" width="320" height="881"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1281"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYr-Ie-fra">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="801"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1234"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="y5I-S7-4Dw">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="851"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="1234"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STw-j6-1QY">
-                                                <rect key="frame" x="8" y="193" width="304" height="371"/>
+                                                <rect key="frame" x="8" y="238" width="304" height="537"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Professional experience
-
-Jan 2017 - Feb 2018
+                                                <mutableString key="text">Jan 2017 - Feb 2018
 1 year and 2 months
 QA Tester - Gameloft
 Cluj-Napoca | IT Software | IT / Telecom
@@ -453,7 +322,7 @@ My responsibilities include:
 - Helping other team members with their assignments;
 - Giving feedback to superiors regarding new team members and their performance;
 - Assigning tasks for the rest of the team;</mutableString>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -467,17 +336,16 @@ My responsibilities include:
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Experience" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6l-bb-0w4">
-                                                <rect key="frame" x="92" y="143" width="137" height="33"/>
+                                                <rect key="frame" x="84" y="143" width="157" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmZ-s9-LyK">
-                                                <rect key="frame" x="8" y="565" width="304" height="177"/>
+                                                <rect key="frame" x="8" y="819" width="304" height="252"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Other info
-Certifications
+                                                <string key="text">Certifications
 Technician in Economical Activities
 period Sep 2009 - Jun 2013
 Certificate Of Linguistic Competence In English
@@ -489,37 +357,51 @@ Experienced user
 Driving license
 Category B
 acquired on 21 Oct 2014</string>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                                 <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is an actual application, it can be found here: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywi-6m-ZKe">
-                                                <rect key="frame" x="8" y="750" width="304" height="43"/>
+                                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiA-Bu-f18">
+                                                <rect key="frame" x="8" y="1159" width="304" height="59"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                                <state key="normal" title="https://github.com/EduardCaziuc/Resume-App"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is an actual application and it can be found at the link bellow: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywi-6m-ZKe">
+                                                <rect key="frame" x="8" y="1079" width="304" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQl-5u-y9Q">
+                                                <rect key="frame" x="8" y="790" width="168" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.68627450980000004" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Professional Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psc-ob-4d9">
+                                                <rect key="frame" x="8" y="201" width="219" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.68627450980000004" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="y5I-S7-4Dw" firstAttribute="top" secondItem="MYr-Ie-fra" secondAttribute="top" id="4A2-DB-Fr8"/>
-                                            <constraint firstAttribute="bottom" secondItem="y5I-S7-4Dw" secondAttribute="bottom" constant="-50" id="HBd-F6-64W"/>
+                                            <constraint firstAttribute="bottom" secondItem="y5I-S7-4Dw" secondAttribute="bottom" id="HBd-F6-64W"/>
                                             <constraint firstItem="y5I-S7-4Dw" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" id="YTv-T0-m4Z"/>
                                             <constraint firstAttribute="trailing" secondItem="y5I-S7-4Dw" secondAttribute="trailing" id="foG-lw-bwq"/>
-                                            <constraint firstAttribute="height" constant="801" id="xWe-Kk-NRd"/>
+                                            <constraint firstAttribute="height" constant="1234" id="xWe-Kk-NRd"/>
                                         </constraints>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiA-Bu-f18">
-                                        <rect key="frame" x="8" y="786" width="304" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
-                                        <state key="normal" title="https://github.com/EduardCaziuc/Resume-App"/>
-                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="MYr-Ie-fra" firstAttribute="leading" secondItem="Qcf-dA-gAH" secondAttribute="leading" id="5TU-XT-BCs"/>
                                     <constraint firstItem="MYr-Ie-fra" firstAttribute="top" secondItem="Qcf-dA-gAH" secondAttribute="top" id="eFt-mf-Rdu"/>
-                                    <constraint firstAttribute="bottom" secondItem="MYr-Ie-fra" secondAttribute="bottom" constant="50" id="efD-Qa-0n1"/>
+                                    <constraint firstAttribute="bottom" secondItem="MYr-Ie-fra" secondAttribute="bottom" constant="47" id="efD-Qa-0n1"/>
                                     <constraint firstAttribute="trailing" secondItem="MYr-Ie-fra" secondAttribute="trailing" id="wh5-vh-Wwl"/>
                                 </constraints>
                             </scrollView>
@@ -535,40 +417,40 @@ acquired on 21 Oct 2014</string>
                         <viewLayoutGuide key="safeArea" id="dFk-HV-046"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Experience" image="Work tab icon" selectedImage="Work tab icon" id="BVR-PY-67z"/>
-                    <size key="freeformSize" width="320" height="900"/>
+                    <size key="freeformSize" width="320" height="1300"/>
                     <connections>
                         <outlet property="experienceImageView" destination="Ura-nA-56e" id="YWa-wp-peh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i2O-lQ-SdI" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-802.5" y="-320.07042253521126"/>
+            <point key="canvasLocation" x="-909.375" y="-462.67605633802816"/>
         </scene>
         <!--Education-->
         <scene sceneID="QeA-z4-Tna">
             <objects>
                 <viewController id="Nzf-79-lVM" customClass="EducationViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0wa-co-LKs">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DsC-lh-rts">
-                                <rect key="frame" x="0.0" y="20" width="320" height="881"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1281"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJb-Ea-h3K">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="801"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1230"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Y7w-1Y-Feg">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="851"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="1230"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="academic_record_icon.png;wa50ddfacdc6da6e24" translatesAutoresizingMaskIntoConstraints="NO" id="MXE-SL-Aax">
                                                 <rect key="frame" x="89" y="0.0" width="142" height="142"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8Z-eg-uE5">
-                                                <rect key="frame" x="99" y="143" width="124" height="33"/>
+                                                <rect key="frame" x="93" y="143" width="141" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -578,16 +460,16 @@ acquired on 21 Oct 2014</string>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhz-hL-urp">
-                                                <rect key="frame" x="8" y="201" width="304" height="628"/>
+                                                <rect key="frame" x="8" y="201" width="304" height="1029"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <mutableString key="text">Online Courses:
 Treehouse.com Bootcamp:
 
-- Treehouse Track Beginning iOS:
+-Treehouse Track Beginning iOS:
 
 Courses: Swift Basics, Swift Collections and Control Flow, Functions in Swift, Object-Oriented Swift, Build a Simple iPhone App with Swift, Enumerations and Optionals in Swift, Protocols in Swift, Error Handling in Swift, Build a Vending Machine App, Auto-Layout Basics, Programatic Auto Layout
 
-- Treehouse Track Intermediate iOS:
+-Treehouse Track Intermediate iOS:
 
 Courses: Intermediate Swift, API Design Guidelines in Swift, Delegation in iOS, Build an Interactive Story App with Swift, Generics in Swift, Closures in Swift, Build a Weather App, Introduction to Table Views (in progress), Build an iTunes Search App (in progress), Build a Restaurant Reviews App (in progress) 
 
@@ -599,26 +481,25 @@ iOS 11 &amp; Swift 4: From Beginner to Paid Professional™ 188 Lecutres (39% Co
 
 Lynda.com and Udacity.com Courses
 
-
 2013 - 2016
 Bachelor's degree - Babes Bolyai University
 Psychology | Cluj-Napoca</mutableString>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="Y7w-1Y-Feg" secondAttribute="bottom" constant="-50" id="kdD-zd-iVk"/>
+                                            <constraint firstAttribute="bottom" secondItem="Y7w-1Y-Feg" secondAttribute="bottom" id="kdD-zd-iVk"/>
                                             <constraint firstItem="Y7w-1Y-Feg" firstAttribute="leading" secondItem="yJb-Ea-h3K" secondAttribute="leading" id="mWX-MY-v8V"/>
                                             <constraint firstItem="Y7w-1Y-Feg" firstAttribute="top" secondItem="yJb-Ea-h3K" secondAttribute="top" id="p4j-RN-KFN"/>
-                                            <constraint firstAttribute="height" constant="801" id="pcx-9p-5cM"/>
+                                            <constraint firstAttribute="height" constant="1230" id="pcx-9p-5cM"/>
                                             <constraint firstAttribute="trailing" secondItem="Y7w-1Y-Feg" secondAttribute="trailing" id="zcI-Ji-BaK"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="yJb-Ea-h3K" secondAttribute="bottom" constant="50" id="NL3-wL-K3l"/>
+                                    <constraint firstAttribute="bottom" secondItem="yJb-Ea-h3K" secondAttribute="bottom" constant="51" id="NL3-wL-K3l"/>
                                     <constraint firstItem="yJb-Ea-h3K" firstAttribute="leading" secondItem="DsC-lh-rts" secondAttribute="leading" id="OUQ-Wu-of2"/>
                                     <constraint firstAttribute="trailing" secondItem="yJb-Ea-h3K" secondAttribute="trailing" id="jLx-Xe-je7"/>
                                     <constraint firstItem="yJb-Ea-h3K" firstAttribute="top" secondItem="DsC-lh-rts" secondAttribute="top" id="udh-l6-DuX"/>
@@ -636,68 +517,36 @@ Psychology | Cluj-Napoca</mutableString>
                         <viewLayoutGuide key="safeArea" id="jce-i4-dCU"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Education" image="Education tab icon" selectedImage="Education tab icon" id="bui-38-D5e"/>
-                    <size key="freeformSize" width="320" height="900"/>
+                    <size key="freeformSize" width="320" height="1300"/>
                     <connections>
                         <outlet property="EducationImageView" destination="MXE-SL-Aax" id="K8D-Qv-J3U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DCe-cs-gsg" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-804.375" y="706.69014084507046"/>
+            <point key="canvasLocation" x="-909.375" y="1134.5070422535211"/>
         </scene>
         <!--Skills-->
         <scene sceneID="KHc-Ar-Hdp">
             <objects>
                 <viewController id="q4Y-Db-3M5" customClass="SkillsViewController" customModule="Resume_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LhH-Qh-Y9t">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smc-kd-Zas">
-                                <rect key="frame" x="0.0" y="20" width="320" height="881"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1281"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbi-Ui-7tx">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="801"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1234"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="geU-74-K45">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="851"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="1234"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Skills Image" translatesAutoresizingMaskIntoConstraints="NO" id="z0x-ps-jsu">
-                                                <rect key="frame" x="91" y="0.0" width="142" height="142"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvu-UI-GHx">
+                                                <rect key="frame" x="8" y="648" width="304" height="586"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yv4-IN-j7S">
-                                                <rect key="frame" x="128" y="143" width="65" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mxF-iB-PHf">
-                                                <rect key="frame" x="0.0" y="184" width="320" height="9"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19j-oa-XrB">
-                                                <rect key="frame" x="0.0" y="201" width="312" height="624"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Technical Skills: 
-
-- iOS Development
-
-- Object-Oriented Programming (OOP)
-
-- Xcode IDE 
-
-Programming Languages: Swift, some knowledge of Objective-C and Python.
-
-Operating Systems:
-
--macOS and Windows
-
-Other Skills:
-
-- Strategic Planning
+                                                <string key="text">- Strategic Planning
 
 - Persistence in my work
 
@@ -710,24 +559,74 @@ Other Skills:
 -English - Advanced, Romanian - Advanced, German - Beginner, Spanish - Beginner
 
 As a starting iOS Developer I am very interested in learning all the necessary skills and accumulate as much information as possible to create professional, reliable, fast and bug-free mobile applications.
-</mutableString>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+</string>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxt-oz-E5y">
+                                                <rect key="frame" x="8" y="616" width="112" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Other Skills:
+</string>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.68627450980000004" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Technical Skills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9se-Mo-tqM">
+                                                <rect key="frame" x="8" y="212" width="140" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <color key="textColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Skills Image" translatesAutoresizingMaskIntoConstraints="NO" id="z0x-ps-jsu">
+                                                <rect key="frame" x="91" y="0.0" width="142" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yv4-IN-j7S">
+                                                <rect key="frame" x="123" y="140" width="75" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mxF-iB-PHf">
+                                                <rect key="frame" x="0.0" y="184" width="320" height="9"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19j-oa-XrB">
+                                                <rect key="frame" x="8" y="258" width="304" height="326"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">- iOS Development
+
+- Object-Oriented Programming (OOP)
+
+- Xcode IDE 
+
+Programming Languages: Swift, some knowledge of Objective-C and Python.
+
+Operating Systems:
+
+-macOS and Windows</string>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="geU-74-K45" firstAttribute="leading" secondItem="hbi-Ui-7tx" secondAttribute="leading" id="HGj-wN-dFG"/>
-                                            <constraint firstAttribute="bottom" secondItem="geU-74-K45" secondAttribute="bottom" constant="-50" id="lxx-fD-DAF"/>
+                                            <constraint firstAttribute="bottom" secondItem="geU-74-K45" secondAttribute="bottom" id="lxx-fD-DAF"/>
                                             <constraint firstItem="geU-74-K45" firstAttribute="top" secondItem="hbi-Ui-7tx" secondAttribute="top" id="n7A-CM-SQA"/>
-                                            <constraint firstAttribute="height" constant="801" id="rUt-Nb-iS2"/>
+                                            <constraint firstAttribute="height" constant="1234" id="rUt-Nb-iS2"/>
                                             <constraint firstAttribute="trailing" secondItem="geU-74-K45" secondAttribute="trailing" id="vk3-fI-bYP"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="hbi-Ui-7tx" firstAttribute="leading" secondItem="smc-kd-Zas" secondAttribute="leading" id="1lS-0f-eEc"/>
-                                    <constraint firstAttribute="bottom" secondItem="hbi-Ui-7tx" secondAttribute="bottom" constant="50" id="I1O-Jz-i2z"/>
+                                    <constraint firstAttribute="bottom" secondItem="hbi-Ui-7tx" secondAttribute="bottom" constant="47" id="I1O-Jz-i2z"/>
                                     <constraint firstAttribute="trailing" secondItem="hbi-Ui-7tx" secondAttribute="trailing" id="ZSW-SG-RdQ"/>
                                     <constraint firstItem="hbi-Ui-7tx" firstAttribute="top" secondItem="smc-kd-Zas" secondAttribute="top" id="yCk-ag-h1O"/>
                                 </constraints>
@@ -744,11 +643,11 @@ As a starting iOS Developer I am very interested in learning all the necessary s
                         <viewLayoutGuide key="safeArea" id="JEH-QY-KQD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Skills" image="Skills tab icon" selectedImage="Skills tab icon" id="DD8-wh-ZsN"/>
-                    <size key="freeformSize" width="320" height="900"/>
+                    <size key="freeformSize" width="320" height="1300"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CMK-v6-JNY" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="877.81690140845069"/>
+            <point key="canvasLocation" x="0.0" y="1148.2394366197184"/>
         </scene>
     </scenes>
     <resources>

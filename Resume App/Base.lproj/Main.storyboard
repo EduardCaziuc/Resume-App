@@ -117,6 +117,7 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="801" id="1e7-Ll-qA9"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ox1-X3-6i5" secondAttribute="trailing" constant="8" id="2y4-rO-2ch"/>
                                             <constraint firstItem="Pml-WI-Dis" firstAttribute="top" secondItem="PI3-Sr-cGw" secondAttribute="bottom" constant="4" id="3AO-9p-pDO"/>
                                             <constraint firstItem="55P-D8-i7T" firstAttribute="top" secondItem="90e-9T-leb" secondAttribute="bottom" id="3c1-6R-8Ph"/>
                                             <constraint firstItem="OVL-dB-6Mz" firstAttribute="top" secondItem="XjI-7B-Frz" secondAttribute="top" constant="8" id="4nt-w7-2fJ"/>
@@ -152,6 +153,7 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                             <constraint firstItem="ox1-X3-6i5" firstAttribute="leading" secondItem="Pml-WI-Dis" secondAttribute="trailing" constant="5" id="neA-ir-ibE"/>
                                             <constraint firstItem="6UY-49-hlV" firstAttribute="top" secondItem="XjI-7B-Frz" secondAttribute="top" constant="8" id="oea-7G-8Cv"/>
                                             <constraint firstItem="06z-A7-kSt" firstAttribute="leading" secondItem="WtN-ZY-KJd" secondAttribute="trailing" constant="8" id="sha-Iv-IR7"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="90e-9T-leb" secondAttribute="trailing" constant="20" symbolic="YES" id="tYn-0c-AVZ"/>
                                             <constraint firstItem="6n7-Pu-ItZ" firstAttribute="top" secondItem="Pml-WI-Dis" secondAttribute="bottom" constant="3" id="uDd-fY-lK5"/>
                                             <constraint firstItem="6UY-49-hlV" firstAttribute="leading" secondItem="JTf-ui-pOY" secondAttribute="trailing" constant="8" id="vkl-ia-DUc"/>
                                             <constraint firstAttribute="trailing" secondItem="Fyj-Jc-6KP" secondAttribute="trailing" id="ytK-fo-7OK"/>
@@ -287,8 +289,8 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Memory Cards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC9-nc-Mqg">
-                                                <rect key="frame" x="8" y="230" width="304" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memory Cards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC9-nc-Mqg">
+                                                <rect key="frame" x="8" y="230" width="134.5" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <color key="textColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -386,6 +388,7 @@ My professional objective is to become an iOS Developer. I am searching for a fu
                                             <constraint firstItem="tOD-ZM-iFk" firstAttribute="leading" secondItem="Cdo-Rz-bWl" secondAttribute="leading" id="0cb-i9-aKY"/>
                                             <constraint firstItem="cRe-fJ-vwl" firstAttribute="top" secondItem="Uns-jo-HtJ" secondAttribute="bottom" id="0iw-ql-bis"/>
                                             <constraint firstAttribute="height" constant="1300" id="2kH-9a-FSC"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vC9-nc-Mqg" secondAttribute="trailing" constant="20" symbolic="YES" id="4X7-za-8a8"/>
                                             <constraint firstItem="tOD-ZM-iFk" firstAttribute="trailing" secondItem="e5q-1e-Fo9" secondAttribute="trailing" id="7B9-Jx-rTP"/>
                                             <constraint firstItem="uO6-zX-VKl" firstAttribute="top" secondItem="yNz-XS-up9" secondAttribute="bottom" id="9Fq-mk-6IO"/>
                                             <constraint firstItem="ybm-ON-YKW" firstAttribute="centerX" secondItem="mB7-Oq-dnN" secondAttribute="centerX" id="9tz-SG-wCa"/>
@@ -566,17 +569,6 @@ acquired on 21 Oct 2014</string>
                                                 <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiA-Bu-f18">
-                                                <rect key="frame" x="8" y="1159" width="304" height="29"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
-                                                <state key="normal" title="https://github.com/EduardCaziuc/Resume-App"/>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is an actual application and it can be found at the link bellow: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywi-6m-ZKe">
-                                                <rect key="frame" x="8" y="1079" width="304" height="72"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <color key="textColor" red="0.91764705879999997" green="0.45882352939999999" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQl-5u-y9Q">
                                                 <rect key="frame" x="8" y="790" width="168" height="24"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -593,7 +585,7 @@ acquired on 21 Oct 2014</string>
                                         <constraints>
                                             <constraint firstItem="y5I-S7-4Dw" firstAttribute="top" secondItem="MYr-Ie-fra" secondAttribute="top" id="4A2-DB-Fr8"/>
                                             <constraint firstItem="c6l-bb-0w4" firstAttribute="top" secondItem="Ura-nA-56e" secondAttribute="bottom" constant="1" id="5Wp-R3-hlm"/>
-                                            <constraint firstItem="Ywi-6m-ZKe" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" constant="8" id="5g4-rx-IYj"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Psc-ob-4d9" secondAttribute="trailing" constant="20" symbolic="YES" id="AcZ-bV-wsI"/>
                                             <constraint firstItem="JQl-5u-y9Q" firstAttribute="top" secondItem="STw-j6-1QY" secondAttribute="bottom" constant="17" id="BDa-cr-vdz"/>
                                             <constraint firstItem="Psc-ob-4d9" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" constant="8" id="DfL-ct-o0w"/>
                                             <constraint firstItem="Ura-nA-56e" firstAttribute="top" secondItem="MYr-Ie-fra" secondAttribute="top" id="GJo-Qm-RlC"/>
@@ -606,16 +598,12 @@ acquired on 21 Oct 2014</string>
                                             <constraint firstItem="y5I-S7-4Dw" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" id="YTv-T0-m4Z"/>
                                             <constraint firstAttribute="trailing" secondItem="WmZ-s9-LyK" secondAttribute="trailing" constant="8" id="fLN-8w-d9q"/>
                                             <constraint firstAttribute="trailing" secondItem="y5I-S7-4Dw" secondAttribute="trailing" id="foG-lw-bwq"/>
-                                            <constraint firstAttribute="trailing" secondItem="xiA-Bu-f18" secondAttribute="trailing" constant="8" id="lrT-8w-QKE"/>
                                             <constraint firstItem="STw-j6-1QY" firstAttribute="top" secondItem="Psc-ob-4d9" secondAttribute="bottom" constant="14" id="mMW-hW-dy2"/>
-                                            <constraint firstItem="xiA-Bu-f18" firstAttribute="top" secondItem="Ywi-6m-ZKe" secondAttribute="bottom" constant="8" id="oA2-Kf-JTq"/>
-                                            <constraint firstItem="Ywi-6m-ZKe" firstAttribute="top" secondItem="WmZ-s9-LyK" secondAttribute="bottom" constant="11.5" id="oeE-Nd-ab9"/>
-                                            <constraint firstItem="xiA-Bu-f18" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" constant="8" id="qhw-bo-NpX"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JQl-5u-y9Q" secondAttribute="trailing" constant="20" symbolic="YES" id="neO-U1-NXn"/>
                                             <constraint firstItem="Psc-ob-4d9" firstAttribute="top" secondItem="Pne-DJ-yXO" secondAttribute="bottom" constant="8" id="sTK-c3-Gs1"/>
                                             <constraint firstItem="JQl-5u-y9Q" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" constant="8" id="t9d-JG-wSj"/>
                                             <constraint firstItem="Ura-nA-56e" firstAttribute="centerX" secondItem="MYr-Ie-fra" secondAttribute="centerX" id="u5e-L0-zBx"/>
                                             <constraint firstItem="Pne-DJ-yXO" firstAttribute="top" secondItem="c6l-bb-0w4" secondAttribute="bottom" constant="5" id="uyZ-Oq-aju"/>
-                                            <constraint firstAttribute="trailing" secondItem="Ywi-6m-ZKe" secondAttribute="trailing" constant="8" id="vMJ-tU-EyG"/>
                                             <constraint firstAttribute="trailing" secondItem="Pne-DJ-yXO" secondAttribute="trailing" id="x7b-4Y-JTq"/>
                                             <constraint firstItem="WmZ-s9-LyK" firstAttribute="leading" secondItem="MYr-Ie-fra" secondAttribute="leading" constant="8" id="xWF-7v-83p"/>
                                             <constraint firstAttribute="height" constant="1234" id="xWe-Kk-NRd"/>
@@ -874,6 +862,8 @@ Operating Systems:
                                             <constraint firstItem="geU-74-K45" firstAttribute="top" secondItem="hbi-Ui-7tx" secondAttribute="top" id="n7A-CM-SQA"/>
                                             <constraint firstAttribute="trailing" secondItem="zvu-UI-GHx" secondAttribute="trailing" constant="8" id="o08-X3-fEH"/>
                                             <constraint firstAttribute="height" constant="1234" id="rUt-Nb-iS2"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sxt-oz-E5y" secondAttribute="trailing" constant="20" symbolic="YES" id="u5M-I7-hla"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9se-Mo-tqM" secondAttribute="trailing" constant="20" symbolic="YES" id="vTu-uR-vSe"/>
                                             <constraint firstAttribute="trailing" secondItem="geU-74-K45" secondAttribute="trailing" id="vk3-fI-bYP"/>
                                         </constraints>
                                     </view>
